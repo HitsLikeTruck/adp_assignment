@@ -10,30 +10,34 @@ package za.ac.cput.adp3_GitAssignment;
 
 public class Division {
 
-    private int dividend;
-    private int divisor;
+    private double dividend;
+    private double divisor;
 
     public Division() {
     }
 
-    public Division(int dividend, int divisor) {
+    public Division(double dividend, double divisor) {
         this.dividend = dividend;
         this.divisor = divisor;
     }
 
-    public int getDividend() {
+    public double getDividend() {
         return dividend;
     }
 
-    public void setDividend(int dividend) {
+    public void setDividend(double dividend) {
         this.dividend = dividend;
     }
 
-    public int getDivisor() {
+    public double getDivisor() {
         return divisor;
     }
 
-    public void setDivisor(int divisor) {
+    public void setDivisor(double divisor) {
         this.divisor = divisor;
+    }
+
+    public double result(double a, double B){
+        return dividend/divisor;
     }
 }
